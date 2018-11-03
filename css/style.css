@@ -1,0 +1,94 @@
+.bold {
+    font-weight: bold;
+}
+
+.nav-wrapper {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding: .5rem 2rem;
+}
+
+.nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+h1 {
+    color: #34495e;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    padding: 4rem 0;
+}
+
+.bg-red {
+    background-color: #e74c3c;
+}
+
+.bg-red .container {
+    position: relative;
+    height: 500px;
+}
+
+.bg-green {
+    background-color: #2ecc71;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.bg-white {
+    color: #34495e;
+    font-size: 1.2rem;
+}
+
+.text-wrapper {
+    transform: translateY(165%);
+}
+
+.padding-com {
+    padding: .5rem;
+}
+
+.girl {
+    position: absolute;
+    bottom: 0;
+    right: 300px;
+    /*z-index: 2;*/
+}
+
+/*.girl-shadow {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 515px;*/
+    /*border-bottom: 335px solid #000000;*/
+    /*border-left: 400px solid transparent;*/
+    /*opacity: 0.1;*/
+    /*z-index: 1;*/
+/*}*/
+
+.boy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /*z-index: 2;*/
+}
+
+/*.boy-shadow {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 255px;*/
+    /*border-bottom: 423px solid #000000;*/
+    /*border-left: 519px solid transparent;*/
+    /*opacity: 0.1;*/
+/*}*/
