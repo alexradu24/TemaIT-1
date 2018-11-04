@@ -2,8 +2,12 @@
     font-weight: bold;
 }
 
-.nav-wrapper {
-    background-color: #34495e;
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #4C6071;
     color: #ffffff;
 }
 
@@ -26,14 +30,14 @@
 }
 
 h1 {
-    color: #34495e;
+    color: #4C6071;
     font-size: 3.2rem;
     text-transform: uppercase;
     padding: 4rem 0;
 }
 
 .bg-red {
-    background-color: #e74c3c;
+    background-color: #E16B5B;
 }
 
 .bg-red .container {
@@ -42,13 +46,13 @@ h1 {
 }
 
 .bg-green {
-    background-color: #2ecc71;
+    background-color: #9BD16F;
     color: #ffffff;
     font-size: 2rem;
 }
 
 .bg-white {
-    color: #34495e;
+    color: #4C6071;
     font-size: 1.2rem;
 }
 
@@ -92,3 +96,125 @@ h1 {
     /*border-left: 519px solid transparent;*/
     /*opacity: 0.1;*/
 /*}*/
+
+.item-wrapper {
+    margin: 7rem 0;
+}
+
+.item {
+    border: 2px solid #bdc3c7;
+    padding: 2rem;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.title {
+    color: #4C6071;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    position: relative;
+    max-width: 65%;
+}
+
+.title-underline:before {
+    content: "";
+    height: 5px;
+    width: 80px;
+    background-color: #4C6071;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.description {
+    padding: 1rem 0 1.5rem;
+}
+
+.item a {
+    color: #ffffff;
+    background-color: #4C6071;
+    padding: .5rem;
+}
+
+.item i {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    color: #9BD16F;
+    font-size: 2rem;
+    padding: 2rem;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #bdc3c7;
+    border-left: 2px solid #bdc3c7;
+}
+
+.more {
+    font-size: .7rem;
+    padding: .5rem;
+}
+
+.bg-grey {
+    background-color: #F9F9F9;
+    padding: 7rem 0;
+}
+
+.bg-grey a {
+    color: #4C6071;
+    border: 2px solid #bdc3c7;
+    padding: .5rem 1rem;
+}
+
+.bg-grey i {
+    margin-left: 10px;
+    color: #9BD16F;
+}
+
+.team {
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2.5rem;
+    color: #4C6071;
+}
+
+.team h5 {
+    color: #E16B5B;
+    font-weight: 400;
+}
+
+.team .row {
+    margin-top: 7rem;
+}
+
+.team .col {
+    border-top: 2px solid #bdc3c7;
+    border-right: 2px solid #bdc3c7;
+    border-bottom: 2px solid #bdc3c7;
+    padding: 3rem 15px;
+}
+
+.team .col:first-child{
+    border-left: 2px solid #bdc3c7;
+}
+
+.member {
+    color: #4C6071;
+    letter-spacing: 2px;
+}
+
+.team img {
+    margin-bottom: 2rem;
+}
+
+.team p {
+    margin-bottom: 0;
+}
+
